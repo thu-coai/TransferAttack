@@ -11,17 +11,20 @@ We introduce a novel conceptual framework to elucidate transferability and ident
 
 ### Setup
 
-AISafetyLab is required since we utilize it for quick evaluation, and newest Fastchat is required for searching on Llama3.
+We require [AISafetyLab](https://github.com/thu-coai/AISafetyLab) for quick evaluation and the latest FastChat for searching on Llama3. Follow these steps to set up the required dependencies:
 ```shell
+# Clone and install AISafetyLab
 git clone git@github.com:thu-coai/AISafetyLab.git
 cd AISafetyLab
 pip install -e .
 
+# Clone and install FastChat
 git clone git@github.com:lm-sys/FastChat.git
 cd FastChat
 pip install -e .
 ```
-And then install the others
+
+Then, install the remaining dependencies:
 ```shell
 git clone git@github.com:thu-coai/TransferAttack.git
 cd TransferAttack
@@ -31,22 +34,22 @@ pip install -e .
 ### Searching code
 
 #### Data Construction
-We provide a script to construct searching data for GCG-Adaptive and Ours.
+We provide a script to construct search data for GCG-Adaptive and our method:
 ```shell
 cd scripts
 python construct_data.py
 ```
 
-#### Search Script
-We adopt the attack framework of GCG attack, and add our method. Here's how to run the searching code:
+#### Running the Search Script
+We build upon the GCG attack framework and integrate our method. Use the following commands to run the search:
 ```shell
 bash run_gjo.sh llama2
 bash run_gjo.sh llama3
 ```
 Remember to change the running config in `./scripts/configs`
 
-#### Post Process
-We provide quick scripts to extract the adversarial prompt from log file and combine it with test questions and model chat template.
+#### Post Processing
+We provide scripts to extract adversarial prompts from log files and combine them with test questions and model chat templates:
 ```shell
 python log_file_convert.py
 bash gcg_combine.py
@@ -60,7 +63,7 @@ bash generate.sh
 ```
 
 ### Evaluation
-We provide evaluation script supported by `AISafetyLab`.
+We support evaluation using `AISafetyLab`. Run the evaluation script as follows:
 ```shell
 cd evaluation
 python harmbench_eval.py
