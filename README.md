@@ -11,7 +11,7 @@ We introduce a novel conceptual framework to elucidate transferability and ident
 
 ### Setup
 
-We require [AISafetyLab](https://github.com/thu-coai/AISafetyLab) for quick evaluation and the latest FastChat for searching on Llama3. Follow these steps to set up the required dependencies:
+We require [AISafetyLab](https://arxiv.org/abs/2502.16776) for quick evaluation and the latest FastChat for searching on Llama3. Follow these steps to set up the required dependencies:
 ```shell
 # Clone and install AISafetyLab
 git clone git@github.com:thu-coai/AISafetyLab.git
