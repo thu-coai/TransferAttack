@@ -1,4 +1,4 @@
-# Guiding not Forcing: Enhancing the Transferability of Jailbreaking Attacks on LLMs via Removing Superfluous Constraints (ACL 2025)
+# TransferAttack (ACL 2025)
 
 ![method](<imgs/main_figure.png>)
 
@@ -8,7 +8,7 @@ We introduce a novel conceptual framework to elucidate transferability and ident
 
 ## News
 
-- Our Paper `Guiding not Forcing: Enhancing the Transferability of Jailbreaking Attacks on LLMs via Removing Superfluous Constraints` is accepted by ACL 2025 Main! Please feel free to contact us if you have any questions about our work.
+- 🎉🎉🎉 Our Paper `Guiding not Forcing: Enhancing the Transferability of Jailbreaking Attacks on LLMs via Removing Superfluous Constraints` is accepted by ACL 2025 Main! Please feel free to contact us if you have any questions about our work.
 
 ## Quick Start
 
