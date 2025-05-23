@@ -1,4 +1,4 @@
-# TransferAttack (ACL 2025)
+# TransferAttack
 
 ![method](<imgs/main_figure.png>)
 
