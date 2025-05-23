@@ -1,4 +1,4 @@
-# TransferAttack
+# Guiding not Forcing: Enhancing the Transferability of Jailbreaking Attacks on LLMs via Removing Superfluous Constraints (ACL 2025)
 
 ![method](<imgs/main_figure.png>)
 
@@ -6,6 +6,9 @@ This is the codebase for our paper [Guiding not Forcing: Enhancing the Transfera
 
 We introduce a novel conceptual framework to elucidate transferability and identify superfluous constraints—specifically, the response pattern constraint and the token tail constraint—as significant barriers to improved transferability. Our method, Guided Jailbreaking Optimization, increases the overall Transfer Attack Success Rate (T-ASR) across a set of target models with varying safety levels **from 18.4\% to 50.3\%**, while also improving the stability and controllability of jailbreak behaviors on both source and target models. Please refer to our [paper](https://arxiv.org/abs/2503.01865) for more details.
 
+## News
+
+- Our Paper `Guiding not Forcing: Enhancing the Transferability of Jailbreaking Attacks on LLMs via Removing Superfluous Constraints` is accepted by ACL 2025 Main! Please feel free to contact us if you have any questions about our work.
 
 ## Quick Start
 
